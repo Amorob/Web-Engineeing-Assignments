@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e1e1e1;
+}
+h1,
+h2,
+h3 {
+  padding: 10px;
+}
+.container {
+  width: 75%;
+  margin: auto;
+  padding: 10px 0;
+}
+.videos {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  height: 100vh;
+}
+.main-video {
+  padding: 5px 0;
+}
+.main-video video {
+  padding: 5px 0;
+  width: 100% !important;
+  height: auto !important;
+}
+.small-video {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.small-video video {
+  width: 48% !important;
+  height: 50% !important;
+}
+a {
+  text-decoration: none;
+}

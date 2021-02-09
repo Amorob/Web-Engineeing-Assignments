@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Web Engineering Week 2 Assignment - Amoro</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="videos">
+        <h1>My Video Player</h1>
+        <div class="main-video">
+          <video controls="controls" src="./videos/video1.mp4">
+            Your browser does not support the Video format.
+          </video>
+        </div>
+        <div class="small-video">
+          <video
+            controls="controls"
+            src="./videos/video2.mp4"
+            onclick="window.location='video2.html'"
+          >
+            Your browser does not support the Video format.
+          </video>
+
+          <video
+            controls="controls"
+            src="./videos/video3.mp4"
+            onclick="window.location='video3.html'"
+          >
+            Your browser does not support the Video format.
+          </video>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
